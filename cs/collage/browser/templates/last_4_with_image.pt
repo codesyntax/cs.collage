@@ -24,6 +24,20 @@
       </a>
     </h2>
 
+    <div class="rss">
+      <a href=""
+         tal:attributes="href string:${here/absolute_url}/RSS">
+        <img src=""
+             tal:replace="structure here/rss.gif" />
+        <span 
+            i18n:domain="plone"
+            i18n:translate="RSS feed">
+          RSS feed
+        </span>
+      </a>
+      
+    </div>
+
     <p>
       <span metal:define-macro="description"
             tal:define="view context/@@collage_kss_helper"
