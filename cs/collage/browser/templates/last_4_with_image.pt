@@ -28,14 +28,14 @@
       <a href=""
          tal:attributes="href string:${here/absolute_url}/RSS">
         <img src=""
-             tal:replace="structure here/rss.gif" />
-        <span 
+             tal:replace="structure here/rss.png|here/rss.gif" />
+        <span
             i18n:domain="plone"
             i18n:translate="RSS feed">
           RSS feed
         </span>
       </a>
-      
+
     </div>
 
     <p>
