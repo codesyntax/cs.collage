@@ -17,7 +17,7 @@ setup(name='cs.collage',
       keywords='',
       author='Mikel Larreategi',
       author_email='mlarreategi@codesyntax.com',
-      url='http://svn.plone.org/svn/plone/plone.example',
+      url='https://github.com/codesyntax/cs.collage',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['cs'],
@@ -29,5 +29,8 @@ setup(name='cs.collage',
       ],
       entry_points="""
       # -*- Entry points: -*-
+
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
       )
