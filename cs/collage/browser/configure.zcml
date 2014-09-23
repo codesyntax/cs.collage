@@ -26,5 +26,15 @@
      layer="Products.Collage.interfaces.ICollageBrowserLayer"
      />
 
+    <browser:page
+     name="last-4-with-image"
+     for="plone.app.collection.interfaces.ICollection"
+     permission="zope.Public"
+     template="templates/last_4_with_image_for_collection.pt"
+     class=".views.Last4WithImage"
+     layer="Products.Collage.interfaces.ICollageBrowserLayer"
+     />
+
+
 
 </configure>
