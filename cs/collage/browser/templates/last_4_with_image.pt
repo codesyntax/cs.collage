@@ -38,7 +38,7 @@
 
     </div>
 
-    <p>
+    <p tal:condition="here/Description">
       <span metal:define-macro="description"
             tal:define="view context/@@collage_kss_helper"
             tal:attributes="id string:${view/getUniqueIdentifier}-description;
